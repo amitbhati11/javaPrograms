@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90" started-at="2022-05-13T10:15:24 IST" finished-at="2022-05-13T10:15:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90" started-at="2022-05-13T10:15:24 IST" finished-at="2022-05-13T10:15:24 IST">
+      <class name="javaPrograms.nestedloop">
+        <test-method status="PASS" signature="printnumber()[pri:0, instance:javaPrograms.nestedloop@168ddbd]" name="printnumber" duration-ms="12" started-at="2022-05-13T10:15:24 IST" finished-at="2022-05-13T10:15:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printnumber -->
+        <test-method status="PASS" signature="printstar()[pri:0, instance:javaPrograms.nestedloop@168ddbd]" name="printstar" duration-ms="3" started-at="2022-05-13T10:15:24 IST" finished-at="2022-05-13T10:15:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printstar -->
+      </class> <!-- javaPrograms.nestedloop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
