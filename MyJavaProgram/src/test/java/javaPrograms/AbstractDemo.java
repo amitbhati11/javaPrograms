@@ -21,9 +21,9 @@ public class AbstractDemo {
 
 	public static void main(String[] args) {
 
-		humain hm=new humain();//thus you can create object of abstract class
+		humain hm=new humain();//thus you can't create object of abstract class
 		
-		humain obj=new man();
+		humain obj=new man();//you can create the object of subclass
 	}
 
 }
