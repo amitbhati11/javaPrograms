@@ -60,5 +60,17 @@ public class array {
 			System.out.println(" vlaue of array p--->"+p);
 		}
 	}
+	
+	@Test
+	
+	public void loop1ench() {
+		int d[][]= {{1,2,3,4},{9,8,7,6},{5,1,7,3}};
+		for(int b[]:d) {
+			for(int s:b) {
+				System.out.print(" "+s);
+			}System.out.println();
+		}
+	}
+	
 
 }
