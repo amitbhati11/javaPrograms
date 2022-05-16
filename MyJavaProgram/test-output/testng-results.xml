@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="135" started-at="2022-05-14T19:05:54 IST" finished-at="2022-05-14T19:05:54 IST">
+  <suite name="Default suite" duration-ms="107" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="135" started-at="2022-05-14T19:05:54 IST" finished-at="2022-05-14T19:05:54 IST">
-      <class name="javaPrograms.array">
-        <test-method status="PASS" signature="jaggedarray()[pri:0, instance:javaPrograms.array@168ddbd]" name="jaggedarray" duration-ms="15" started-at="2022-05-14T19:05:54 IST" finished-at="2022-05-14T19:05:54 IST">
+    <test name="Default test" duration-ms="107" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
+      <class name="javaPrograms.Collectonpackage">
+        <test-method status="PASS" signature="Mapinterfacedemo()[pri:0, instance:javaPrograms.Collectonpackage@168ddbd]" name="Mapinterfacedemo" duration-ms="12" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jaggedarray -->
-        <test-method status="PASS" signature="loop1ench()[pri:0, instance:javaPrograms.array@168ddbd]" name="loop1ench" duration-ms="5" started-at="2022-05-14T19:05:54 IST" finished-at="2022-05-14T19:05:54 IST">
+        </test-method> <!-- Mapinterfacedemo -->
+        <test-method status="PASS" signature="collectionp()[pri:0, instance:javaPrograms.Collectonpackage@168ddbd]" name="collectionp" duration-ms="2" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loop1ench -->
-        <test-method status="PASS" signature="loopEnhance()[pri:0, instance:javaPrograms.array@168ddbd]" name="loopEnhance" duration-ms="0" started-at="2022-05-14T19:05:54 IST" finished-at="2022-05-14T19:05:54 IST">
+        </test-method> <!-- collectionp -->
+        <test-method status="PASS" signature="listdemo()[pri:0, instance:javaPrograms.Collectonpackage@168ddbd]" name="listdemo" duration-ms="2" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loopEnhance -->
-        <test-method status="PASS" signature="onedarray()[pri:0, instance:javaPrograms.array@168ddbd]" name="onedarray" duration-ms="3" started-at="2022-05-14T19:05:54 IST" finished-at="2022-05-14T19:05:54 IST">
+        </test-method> <!-- listdemo -->
+        <test-method status="PASS" signature="setineterfacedemo()[pri:0, instance:javaPrograms.Collectonpackage@168ddbd]" name="setineterfacedemo" duration-ms="3" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- onedarray -->
-        <test-method status="PASS" signature="twodarray()[pri:0, instance:javaPrograms.array@168ddbd]" name="twodarray" duration-ms="3" started-at="2022-05-14T19:05:54 IST" finished-at="2022-05-14T19:05:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- twodarray -->
-      </class> <!-- javaPrograms.array -->
+        </test-method> <!-- setineterfacedemo -->
+      </class> <!-- javaPrograms.Collectonpackage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

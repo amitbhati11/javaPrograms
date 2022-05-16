@@ -20,3 +20,6 @@ public class Scannerclass {
 		 System.out.println(st);
 	}
 }
+
+
+
