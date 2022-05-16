@@ -8,6 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeSet;
 
 import org.testng.annotations.Test;
 
@@ -38,7 +39,7 @@ public class Collectonpackage {
 	}
 	
 	@Test
-	
+	//order sequence
 	public void listdemo() {
 		//<> generic
 		List<Integer> abc=new ArrayList();
@@ -46,6 +47,7 @@ public class Collectonpackage {
 		abc.add(123);
 		abc.add(5);
 		abc.add(5);//can add duplicate value in list
+		abc.add(2, 7);//index 2 value 7
 		
 		System.out.println("value of list "+abc);
 		
@@ -56,16 +58,25 @@ public class Collectonpackage {
 	}
 	
 	@Test
-	
+	//Random#hashset#Treeset-->sorting
 	public void setineterfacedemo() {
 		Set vm=new HashSet();
-		
+		vm.add(9);
 		vm.add(5);
 		vm.add(5);//set is working for unique not insert duplicate value
 		
 		vm.add("sumit");
 		
 		System.out.println("value of set"+vm);
+		//Treeset used for sorting
+		Set st=new TreeSet();
+		st.add(7);
+		st.add(6);
+		st.add(3);
+		st.add(2);
+		
+		System.out.println("value of Treeset"+st);
+		
 			
 	}
 	
