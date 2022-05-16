@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="107" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
+  <suite name="Default suite" duration-ms="90" started-at="2022-05-16T22:04:59 IST" finished-at="2022-05-16T22:04:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="107" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
-      <class name="javaPrograms.Collectonpackage">
-        <test-method status="PASS" signature="Mapinterfacedemo()[pri:0, instance:javaPrograms.Collectonpackage@168ddbd]" name="Mapinterfacedemo" duration-ms="12" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
+    <test name="Default test" duration-ms="90" started-at="2022-05-16T22:04:59 IST" finished-at="2022-05-16T22:04:59 IST">
+      <class name="javaPrograms.CollectionDemo">
+        <test-method status="PASS" signature="Collectionclass()[pri:0, instance:javaPrograms.CollectionDemo@168ddbd]" name="Collectionclass" duration-ms="15" started-at="2022-05-16T22:04:59 IST" finished-at="2022-05-16T22:04:59 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Mapinterfacedemo -->
-        <test-method status="PASS" signature="collectionp()[pri:0, instance:javaPrograms.Collectonpackage@168ddbd]" name="collectionp" duration-ms="2" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- collectionp -->
-        <test-method status="PASS" signature="listdemo()[pri:0, instance:javaPrograms.Collectonpackage@168ddbd]" name="listdemo" duration-ms="2" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- listdemo -->
-        <test-method status="PASS" signature="setineterfacedemo()[pri:0, instance:javaPrograms.Collectonpackage@168ddbd]" name="setineterfacedemo" duration-ms="3" started-at="2022-05-16T11:18:27 IST" finished-at="2022-05-16T11:18:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setineterfacedemo -->
-      </class> <!-- javaPrograms.Collectonpackage -->
+        </test-method> <!-- Collectionclass -->
+      </class> <!-- javaPrograms.CollectionDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
