@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="90" started-at="2022-05-16T22:04:59 IST" finished-at="2022-05-16T22:04:59 IST">
+  <suite name="Default suite" duration-ms="110" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="90" started-at="2022-05-16T22:04:59 IST" finished-at="2022-05-16T22:04:59 IST">
-      <class name="javaPrograms.CollectionDemo">
-        <test-method status="PASS" signature="Collectionclass()[pri:0, instance:javaPrograms.CollectionDemo@168ddbd]" name="Collectionclass" duration-ms="15" started-at="2022-05-16T22:04:59 IST" finished-at="2022-05-16T22:04:59 IST">
+    <test name="Default test" duration-ms="110" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
+      <class name="javaPrograms.SetandMapInterface">
+        <test-method status="PASS" signature="mapinterfacedemo()[pri:0, instance:javaPrograms.SetandMapInterface@168ddbd]" name="mapinterfacedemo" duration-ms="14" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Collectionclass -->
-      </class> <!-- javaPrograms.CollectionDemo -->
+        </test-method> <!-- mapinterfacedemo -->
+        <test-method status="PASS" signature="setinterfacedemo()[pri:0, instance:javaPrograms.SetandMapInterface@168ddbd]" name="setinterfacedemo" duration-ms="7" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setinterfacedemo -->
+        <test-method status="PASS" signature="treeSetdemo()[pri:0, instance:javaPrograms.SetandMapInterface@168ddbd]" name="treeSetdemo" duration-ms="2" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treeSetdemo -->
+      </class> <!-- javaPrograms.SetandMapInterface -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
