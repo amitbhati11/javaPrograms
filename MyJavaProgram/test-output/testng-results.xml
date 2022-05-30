@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
+  <suite name="Default suite" duration-ms="7542" started-at="2022-05-30T17:15:28 IST" finished-at="2022-05-30T17:15:36 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
-      <class name="javaPrograms.SetandMapInterface">
-        <test-method status="PASS" signature="mapinterfacedemo()[pri:0, instance:javaPrograms.SetandMapInterface@168ddbd]" name="mapinterfacedemo" duration-ms="14" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
+    <test name="Default test" duration-ms="7542" started-at="2022-05-30T17:15:28 IST" finished-at="2022-05-30T17:15:36 IST">
+      <class name="javaPrograms.revrsenumber">
+        <test-method status="PASS" signature="fabbonacinumber()[pri:0, instance:javaPrograms.revrsenumber@168ddbd]" name="fabbonacinumber" duration-ms="7411" started-at="2022-05-30T17:15:28 IST" finished-at="2022-05-30T17:15:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mapinterfacedemo -->
-        <test-method status="PASS" signature="setinterfacedemo()[pri:0, instance:javaPrograms.SetandMapInterface@168ddbd]" name="setinterfacedemo" duration-ms="7" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
+        </test-method> <!-- fabbonacinumber -->
+        <test-method status="PASS" signature="factoraildata()[pri:0, instance:javaPrograms.revrsenumber@168ddbd]" name="factoraildata" duration-ms="6" started-at="2022-05-30T17:15:35 IST" finished-at="2022-05-30T17:15:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setinterfacedemo -->
-        <test-method status="PASS" signature="treeSetdemo()[pri:0, instance:javaPrograms.SetandMapInterface@168ddbd]" name="treeSetdemo" duration-ms="2" started-at="2022-05-17T07:58:35 IST" finished-at="2022-05-17T07:58:35 IST">
+        </test-method> <!-- factoraildata -->
+        <test-method status="PASS" signature="odevenumber()[pri:0, instance:javaPrograms.revrsenumber@168ddbd]" name="odevenumber" duration-ms="8" started-at="2022-05-30T17:15:36 IST" finished-at="2022-05-30T17:15:36 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- treeSetdemo -->
-      </class> <!-- javaPrograms.SetandMapInterface -->
+        </test-method> <!-- odevenumber -->
+        <test-method status="PASS" signature="pallendirom()[pri:0, instance:javaPrograms.revrsenumber@168ddbd]" name="pallendirom" duration-ms="3" started-at="2022-05-30T17:15:36 IST" finished-at="2022-05-30T17:15:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pallendirom -->
+        <test-method status="PASS" signature="revrsenumber()[pri:0, instance:javaPrograms.revrsenumber@168ddbd]" name="revrsenumber" duration-ms="3" started-at="2022-05-30T17:15:36 IST" finished-at="2022-05-30T17:15:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- revrsenumber -->
+      </class> <!-- javaPrograms.revrsenumber -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
