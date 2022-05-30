@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="157" started-at="2022-05-30T18:43:18 IST" finished-at="2022-05-30T18:43:18 IST">
+  <suite name="Default suite" duration-ms="81" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="157" started-at="2022-05-30T18:43:18 IST" finished-at="2022-05-30T18:43:18 IST">
-      <class name="javaPrograms.patternProgram">
-        <test-method status="PASS" signature="alaphanumric()[pri:0, instance:javaPrograms.patternProgram@168ddbd]" name="alaphanumric" duration-ms="16" started-at="2022-05-30T18:43:18 IST" finished-at="2022-05-30T18:43:18 IST">
+    <test name="Default test" duration-ms="81" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
+      <class name="javaPrograms.Revresestring">
+        <test-method status="PASS" signature="addstring()[pri:0, instance:javaPrograms.Revresestring@168ddbd]" name="addstring" duration-ms="10" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- alaphanumric -->
-        <test-method status="PASS" signature="num100t()[pri:0, instance:javaPrograms.patternProgram@168ddbd]" name="num100t" duration-ms="33" started-at="2022-05-30T18:43:18 IST" finished-at="2022-05-30T18:43:18 IST">
+        </test-method> <!-- addstring -->
+        <test-method status="PASS" signature="palendiromstring()[pri:0, instance:javaPrograms.Revresestring@168ddbd]" name="palendiromstring" duration-ms="2" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- num100t -->
-        <test-method status="PASS" signature="lefttringle()[pri:0, instance:javaPrograms.patternProgram@168ddbd]" name="lefttringle" duration-ms="0" started-at="2022-05-30T18:43:18 IST" finished-at="2022-05-30T18:43:18 IST">
+        </test-method> <!-- palendiromstring -->
+        <test-method status="PASS" signature="reverseString()[pri:0, instance:javaPrograms.Revresestring@168ddbd]" name="reverseString" duration-ms="2" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lefttringle -->
-        <test-method status="PASS" signature="righttringle()[pri:0, instance:javaPrograms.patternProgram@168ddbd]" name="righttringle" duration-ms="0" started-at="2022-05-30T18:43:18 IST" finished-at="2022-05-30T18:43:18 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- righttringle -->
-      </class> <!-- javaPrograms.patternProgram -->
+        </test-method> <!-- reverseString -->
+      </class> <!-- javaPrograms.Revresestring -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
