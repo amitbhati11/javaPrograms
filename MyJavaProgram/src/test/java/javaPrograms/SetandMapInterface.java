@@ -60,8 +60,9 @@ public class SetandMapInterface {
 		mm.put("age", "27");
 		mm.put("actor", "Ranbir");
 	    mm.put("name", "nanu");//key(name) value can  replace by latest value but not key itself 
-	    
-
+	 //   Collections.synchronizedNavigableMap(arg0)//but you can make it synchronized externally using Collections. synchronizedMap().
+//hence hasmap is not syncornized hence it is much faster then hastable,HashMap allows one null key and multiple null values.
+	    //
 		System.out.println(mm);
 		
 		System.out.println(	mm.get("name"));
@@ -72,8 +73,9 @@ public class SetandMapInterface {
 	@Test
 	
 	public void hashtablemap() {
-		//HashTable is syncronized(for thread safe)
+		//HashTable is syncronized(for thread safe)//Hashtable doesn't allow any null key or value.
 		Map<String,String>  map=new Hashtable();
+
 		
 		
 		
