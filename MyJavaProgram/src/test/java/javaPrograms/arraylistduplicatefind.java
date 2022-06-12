@@ -7,7 +7,7 @@ import java.util.Set;
 public class arraylistduplicatefind {
 
 	public static void main(String[] args) {
-
+//printlue in  duplicate value in arraylist by using hashset
 		ArrayList<String>  name=new ArrayList();
 		name.add("Amit");
 		name.add("Baby");
