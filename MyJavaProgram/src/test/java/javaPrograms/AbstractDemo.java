@@ -4,7 +4,7 @@ package javaPrograms;
 abstract class humain{
 	//abstract method are only declaire but not define
 	 //or if you want to only declare your method it should be abstract method
-	 //if an calss have abstract method then class should be abstract
+	 //if an class have abstract method then class should be abstract
 	public abstract void eat();
 	//public void sleep(); 
 	

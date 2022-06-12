@@ -10,6 +10,8 @@
 interface  Book{
 	//by  default public and abstract 
 	void write();
+	abstract void read();
+
 }
 // implements interface by using implements keywords in class
 class Teacher implements Book
@@ -17,11 +19,18 @@ class Teacher implements Book
 	public void write() {
 		System.out.println("i m teacher");
 	}
+	
+	public void read() {
+		
+	}
 }
 //multiple classes can implements interface
 class Principle  implements Book{
 	public void write() {
 		System.out.println("i m principle");
+	}
+	public void read() {
+		
 	}
 }
 

@@ -26,6 +26,7 @@ public class InterfaceDemo2 {
 			}
 		};
 		pp.palying();
+		System.gc();
 	}
 
 }

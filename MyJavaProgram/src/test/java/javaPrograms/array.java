@@ -18,7 +18,7 @@ public class array {
 		int k[] = {12,13,15,34,45,67,89,90};
 		
 	System.out.println(n[4]);	
-	System.out.println(k[6]);
+	System.out.println(k[6]+"-->");
 	
 	for(int i=0; i<5;i++) {
 		System.out.println(n[i]);

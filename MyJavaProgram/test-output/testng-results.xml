@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
+  <suite name="Default suite" duration-ms="187" started-at="2022-06-11T18:29:50 IST" finished-at="2022-06-11T18:29:51 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
-      <class name="javaPrograms.Revresestring">
-        <test-method status="PASS" signature="addstring()[pri:0, instance:javaPrograms.Revresestring@168ddbd]" name="addstring" duration-ms="10" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
+    <test name="Default test" duration-ms="187" started-at="2022-06-11T18:29:50 IST" finished-at="2022-06-11T18:29:51 IST">
+      <class name="javaPrograms.array">
+        <test-method status="PASS" signature="jaggedarray()[pri:0, instance:javaPrograms.array@aa12dd]" name="jaggedarray" duration-ms="46" started-at="2022-06-11T18:29:51 IST" finished-at="2022-06-11T18:29:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addstring -->
-        <test-method status="PASS" signature="palendiromstring()[pri:0, instance:javaPrograms.Revresestring@168ddbd]" name="palendiromstring" duration-ms="2" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
+        </test-method> <!-- jaggedarray -->
+        <test-method status="PASS" signature="loop1ench()[pri:0, instance:javaPrograms.array@aa12dd]" name="loop1ench" duration-ms="4" started-at="2022-06-11T18:29:51 IST" finished-at="2022-06-11T18:29:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- palendiromstring -->
-        <test-method status="PASS" signature="reverseString()[pri:0, instance:javaPrograms.Revresestring@168ddbd]" name="reverseString" duration-ms="2" started-at="2022-05-30T22:22:34 IST" finished-at="2022-05-30T22:22:34 IST">
+        </test-method> <!-- loop1ench -->
+        <test-method status="PASS" signature="loopEnhance()[pri:0, instance:javaPrograms.array@aa12dd]" name="loopEnhance" duration-ms="4" started-at="2022-06-11T18:29:51 IST" finished-at="2022-06-11T18:29:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reverseString -->
-      </class> <!-- javaPrograms.Revresestring -->
+        </test-method> <!-- loopEnhance -->
+        <test-method status="PASS" signature="onedarray()[pri:0, instance:javaPrograms.array@aa12dd]" name="onedarray" duration-ms="5" started-at="2022-06-11T18:29:51 IST" finished-at="2022-06-11T18:29:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onedarray -->
+        <test-method status="PASS" signature="twodarray()[pri:0, instance:javaPrograms.array@aa12dd]" name="twodarray" duration-ms="4" started-at="2022-06-11T18:29:51 IST" finished-at="2022-06-11T18:29:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twodarray -->
+      </class> <!-- javaPrograms.array -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
