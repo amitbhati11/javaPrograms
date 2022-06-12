@@ -34,9 +34,9 @@ public class duplicatevalueArraylist {
 	System.out.println(val);
 	
 	Set<Integer> ss=new HashSet<Integer>();
-	for(int i:val)
-	if(ss.add(i)==false) {
-		System.out.println(i);
+	for(int valus:val)
+	if(ss.add(valus)==false) {
+		System.out.println(valus);
 		
 	}
 		
