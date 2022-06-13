@@ -21,15 +21,22 @@ public class Arrayduplicatefind {
 		}
 		
 		
-		int [] num= {1,2,3,5,3,6,2,5,9};
-		for(int k=0;k<9;k++) {
-			for(int m=k+1;m<9;m++) {
+		int [] num= {1,2,3,5,3,6,2,5,9,7,8,1,4,9,4};
+		
+		for(int k=0;k<num.length-1;k++) {
+			for(int m=k+1;m<num.length;m++) {
 				if(num[k]==num[m]) {
-					System.out.println(num[k]+"-duplicate value in array");
+					System.out.print(num[k]+" ");
 				}
 			}
 			
-			System.out.println(num[k]+"--value of k");
+			
+		}
+		
+		int [] temp= {1,3,2,4,5,6,7,2,3,1};
+		//advance for loop
+		for(int s:temp) {
+			System.out.println(s);
 		}
 	}
 

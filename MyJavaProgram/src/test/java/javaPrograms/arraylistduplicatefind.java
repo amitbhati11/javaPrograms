@@ -15,12 +15,15 @@ public class arraylistduplicatefind {
 		name.add("Amit");
 		name.add("Sachin");
 		System.out.println(name);
-		Set<String> se=new HashSet();
+		Set<String> se=new HashSet<String>();
 		for(String names:name) {
 			if(se.add(names)==false) {
 				System.out.println(names);
 			}
 		}
+		
+		
+		}
 	}
 
-}
+
