@@ -25,7 +25,7 @@ public class hasmapiterator {
 		System.out.println(capit.remove(null));
 		
 		System.out.println("============");
-		//iterator with keyset
+		//iterator with keyset()
 		
 		Iterator<String>  it= capit.keySet().iterator();
 		  while( it.hasNext()) {
@@ -36,14 +36,14 @@ public class hasmapiterator {
 		  }
 		  
 		  System.out.println("============");
-		  //iterator with Entryset
+		  //iterator with Entryset()
 		  
 		 Iterator<Entry<String,Integer>>   eit=   capit.entrySet().iterator();
 		 while(eit.hasNext()) {
 			  
-		     Entry<String,Integer> key1   =  eit.next();
-		                   Integer val=capit.get(key1);
-		                   System.out.println("key: "+key1+" value:"+val);
+		     Entry<String,Integer>  val =  eit.next();
+		                   
+		                   System.out.println("key: "+val.getKey()+" value:"+val.getValue());
 		  }
 		 System.out.println("============");
 		 //lambda expression

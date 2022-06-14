@@ -15,11 +15,13 @@ class cassio{
 		}
 	}
 }
+//we can make innerclass as static
 public class staticdemo {
 	static String name="raj";
 	public void teardown() {
 		int i=3;
 		String opr="abc";
+		System.out.println("static class");
 	}
 	
 	
