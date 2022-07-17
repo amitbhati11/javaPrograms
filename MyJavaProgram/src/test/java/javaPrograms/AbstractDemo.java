@@ -5,8 +5,9 @@ abstract class humain{
 	//abstract method are only declare but not define
 	 //or if you want to only declare your method it should be abstract method
 	 //if an class have abstract method then class should be abstract
+	//abstract class have only abstract method
 	public abstract void eat();
-	//public void sleep(); 
+	//abstract void sleep(); 
 	
 }
 //when you extend abstract class you need to define its declare method
@@ -14,6 +15,9 @@ abstract class humain{
  {
 	
 	public void eat() {
+		
+	}
+	public void sleep() {
 		
 	}
 }

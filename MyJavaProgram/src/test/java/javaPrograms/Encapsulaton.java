@@ -2,9 +2,9 @@ package javaPrograms;
 
 class A{
 	//bind your data with methods is known as Encapsulation
-	//Need for Encapsulation:- to make sure data safe aur data privacy,to 
+	//Need for Encapsulation:- to make sure data safe and data privacy,to 
 	//maintain log file for those variables if its not binding with method 
-	//we can do it on variables, so make our vaiable to private and we do that.
+	//we can do it on variables, so make our variable to private and we do that.
 	 private int rollno;
 	private String name;
 	//setter and getter method

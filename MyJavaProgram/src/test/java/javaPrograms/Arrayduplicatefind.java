@@ -32,6 +32,7 @@ public class Arrayduplicatefind {
 			
 			
 		}
+		System.out.println("========");
 		
 		int [] temp= {1,3,2,4,5,6,7,2,3,1};
 		//advance for loop

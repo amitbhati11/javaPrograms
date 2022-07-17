@@ -11,7 +11,8 @@ public class ArraylistSynchro {
 
 	public static void main(String[] args) {
 // 1. Collections.Synchroniedarraylist() -need explict synchronized for treverse,2. copyOnWriteArraylist class- do not need explict synchronized
-	
+	/*ArrayList<String>  boble=new ArrayList<>();
+	            List<String> tt=  Collections.synchronizedList(boble);*/
 		         List<String> name=  Collections.synchronizedList(new ArrayList<String>());
 			       name.add("Amit");
 			       name.add("sumit");

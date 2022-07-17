@@ -17,6 +17,9 @@ public class array {
 		
 		int k[] = {12,13,15,34,45,67,89,90};
 		
+		for(int b:n) {
+			System.out.println("value is b"+b);
+		}
 	System.out.println(n[4]);	
 	System.out.println(k[6]+"-->");
 	
@@ -38,6 +41,10 @@ public class array {
 			for(int s=0;s<4;s++) {
 				System.out.print(d[m][s]);
 			}System.out.println();
+		}
+		for(int l[]:d) {
+			for(int j:l)
+			System.out.println("val of j"+j);
 		}
 	}
 	
