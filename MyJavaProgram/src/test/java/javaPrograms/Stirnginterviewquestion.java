@@ -47,7 +47,7 @@ public class Stirnginterviewquestion {
                         	/*if((ee.getValue()>1)&&(ee.getKey().contains(search))) {
                         		System.out.println(ee.getKey()+"--"+ee.getValue());
                         	}*/
-                        	
+                        	//how many occurence of a word in string
                         	if(ee.getValue()>1) {
                         		System.out.println(ee.getKey()+"###"+ee.getValue());
                         	}else {
